@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+Script tag was loading before HTML elements--added Defer to JS script in HTML--worked!
 ```
 
 ## Deliverable 2
@@ -35,7 +35,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+added .style.color = "red"; to end of getElementById selector. Worked!
 ```
 
 ## Deliverable 3
@@ -57,7 +57,7 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+  created a function of printCards that is dynamic rather than hard coding my orignal .forEach() funtion. After createing elements, appended them. 
 ```
 
 ## Deliverable 4
@@ -68,5 +68,5 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
-
+Got stuck on this one for a while--ended up forgeting to append the playerCOntainer to the document.body -- Used document.querySelector("[data-number='7']") with .remove() to remove Raheem Sterling by his number. 
 ```
